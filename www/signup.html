@@ -51,9 +51,11 @@
         }
         
         .container {
-          padding: 16px;
+          padding: 25px;
         }
-        
+        .container1 {
+          padding-top: 75px;
+        }
         span.psw {
           float: right;
           padding-top: 16px;
@@ -85,8 +87,8 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="loginb.html">Home</a></li>
-                    <li><a href="signupb.html">About</a></li>
+                    <li class="active"><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Signup</a></li>
                     <li><a href="#">Contact</a></li>
                    <!---- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -104,39 +106,47 @@
             </div>
         </div>
     </nav>
-    <div class="container">
+    <div class="container1">
         
         <form action="" method="post">
-            <div class="imgcontainer">
-              <img src="img_avatar2.png" alt="Avatar" class="avatar">
-            </div>
-          
-            <div class="container">
+            
+          <table  style="padding-top: 25%"   > <div class="container1"><tr><td>
+            
               <label class="item-input">
-                <span class="input-label">Full Name</span>
+                <span class="input-label">Full Name</span></label>
+              </td><td>
                 <input type="text" placeholder="" id="fullname">
-            </label>
+            
+          </td></tr>
+            <tr><td>
             <label class="item-input">
-                <span class="input-label">Email</span>
+                <span class="input-label">Email</span></td><td>
                 <input type="email" placeholder="email@domain.com" id="email">
-            </label>
+        
+          </td></tr>
+
+            <tr><td>
             <label class="item-input">
-                <span class="input-label">Password</span>
+                <span class="input-label">Password</span></td><td>
                 <input type="password" placeholder="password" id="password">
-            </label>
+      
+          </td></tr>
+          <tr><td>
             <label class="item-input">
                 <button class="button button-block button-positive" id="signup">Create an Account</button>
             </label>
-            </div>
-          
-            <div class="container" style="background-color:#f1f1f1">
-              <button type="button" class="cancelbtn">Cancel</button>
-              <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
+            
+          </td>
+        
+          <td>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+</td>
+        </tr></div>
+        </table>
           </form>
         
         <footer class="footer">
-            <p>&copy; Company 2014</p>
+            <p>&copy; Company </p>
         </footer>
     </div>
     <script src="cordova.js"></script>
